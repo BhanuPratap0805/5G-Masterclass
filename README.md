@@ -41,6 +41,10 @@ The ITU (International Telecommunication Union) is divided into three main parts
 
 ## 5G Requirements
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/BhanuPratap0805/5G-Masterclass/blob/d8de8ea52aecf6455e729a0f4b3be918743d63dc/5G%20Requirement.png">
+</p>
+
 It compares 4G (IMT-Advanced) and 5G (IMT-2020) in terms of 8 key features that make 5G much better and faster.
 The outer shaded area represents 5G, and the inner one represents 4G.
 
