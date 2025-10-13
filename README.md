@@ -124,6 +124,86 @@ The outer shaded area represents 5G, and the inner one represents 4G.
 
 📈 Better performance even in crowded places.
 
+# The 3rd Generation Partnership Project
+
+## 3GPP
+
+It is a global collaboration of telecommunications standards organizations that develops protocols for mobile telephony.Standardize cellular networks so devices and networks can work globally.
+
+Focus : Primarily GSM-based networks (Global System for Mobile Communications) and its evolution (UMTS → LTE → 5G).
+
+Key technologies under 3GPP :
+
+- GSM → 2G
+
+- UMTS → 3G
+
+- LTE → 4G
+
+- 5G NR → 5G
+
+#### GSM (Global System for Mobile Communications)
+
+- Generation: 2G (second generation)
+
+- Main purpose: Voice calls and SMS; very limited data
+
+#### UMTS (Universal Mobile Telecommunications System)
+
+- Generation: 3G (third generation)
+
+- Main purpose: Provide faster data and better voice quality than 2G (GSM)
+
+#### LTE (Long-Term Evolution)
+
+- Generation: 4G (fourth generation)
+
+- Main purpose: High-speed data (internet on phones), video calls, streaming
+
+#### 5G NR (New Radio)
+
+- Generation: 5G (fifth generation)
+
+- Main purpose: Ultra-fast mobile internet, IoT, low-latency applications (like autonomous cars, VR/AR)
+
+## 3GPP2 
+
+It is similar to 3GPP, but focused on CDMA-based networks (Code Division Multiple Access).They responsible for building alternative solutions
+
+Focus: CDMA2000 standard (used for 2G/3G in CDMA networks).
+
+Key technologies under 3GPP2:
+
+- CDMAone → 2G
+
+- CDMA2000 1x → 3G
+
+- CDMA2000 EV-DO → High-speed data
+
+#### CDMAOne (IS-95)
+
+- Generation: 2G (sometimes considered 2.5G because it supports some data)
+
+- Purpose: Primarily voice calls, with very limited data (like SMS and slow data)
+
+#### CDMA2000
+
+- Generation: 3G (third generation)
+
+- Purpose: Voice + high-speed data (Internet on phones)
+
+#### CDMA2000 EV-DO (Evolution-Data Optimized)
+
+- Generation: 3G, data-focused
+
+- Purpose: High-speed Internet only (no voice)
+
+
+
+
+
+
+
 
 
 
