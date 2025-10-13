@@ -142,6 +142,10 @@ Key technologies under 3GPP :
 
 - 5G NR → 5G
 
+  <p align="left">
+  <img width="460" height="400" src="https://github.com/BhanuPratap0805/5G-Masterclass/blob/f3099975bfb41bfddd5eac946b89c1cae33bfa07/3gpp.jpg">
+</p>
+
 #### GSM (Global System for Mobile Communications)
 
 - Generation: 2G (second generation)
@@ -179,6 +183,10 @@ Key technologies under 3GPP2:
 - CDMA2000 1x → 3G
 
 - CDMA2000 EV-DO → High-speed data
+
+<p align="left">
+  <img width="460" height="400" src="https://github.com/BhanuPratap0805/5G-Masterclass/blob/f3099975bfb41bfddd5eac946b89c1cae33bfa07/3gpp2.jpg">
+</p>
 
 #### CDMAOne (IS-95)
 
