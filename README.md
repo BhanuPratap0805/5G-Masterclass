@@ -329,7 +329,7 @@ This diagram shows the **three main areas (pillars)** of what 5G — also known 
 This diagram shows the **basic 5G network architecture** — how your phone connects to the internet through different parts of the 5G system.
 
 <p align="center">
-  <img width="1280" height="640" src="https://github.com/BhanuPratap0805/5G-Masterclass/blob/39a8a658b60016ff4337f49ec29dc8a82b1ea8eb/5G%20Use%20Cases.png">
+  <img width="1280" height="640" src="https://github.com/BhanuPratap0805/5G-Masterclass/blob/191dc64704544f740484dab0166eab3e1709d367/5g%20system%20architecture.png">
 </p>
 
 
