@@ -288,6 +288,9 @@ The 3GPP release timeline shows the step-by-step development of mobile communica
 
 This diagram shows the **three main areas (pillars)** of what 5G — also known as **IMT-2020** — is designed to achieve.
 
+<p align="center">
+  <img width="1280" height="640" src="https://github.com/BhanuPratap0805/5G-Masterclass/blob/39a8a658b60016ff4337f49ec29dc8a82b1ea8eb/5G%20Use%20Cases.png">
+</p>
 
 ### 🔹 Enhanced Mobile Broadband (eMBB)
 - **Focus:** High data speed and large capacity  
@@ -321,6 +324,60 @@ This diagram shows the **three main areas (pillars)** of what 5G — also known 
 > **Faster speeds (eMBB)**, **massive connections (mMTC)**, and **instant, reliable communication (URLLC)** —  
 > together powering smart homes, smart cities, automation, and next-generation connectivity.
 
+# 🛰️ 5G Network Architecture
+
+This diagram shows the **basic 5G network architecture** — how your phone connects to the internet through different parts of the 5G system.
+
+<p align="center">
+  <img width="1280" height="640" src="https://github.com/BhanuPratap0805/5G-Masterclass/blob/39a8a658b60016ff4337f49ec29dc8a82b1ea8eb/5G%20Use%20Cases.png">
+</p>
+
+
+## 🧩 Main Components
+
+### 1. **UE (User Equipment)**
+- Your **smartphone or device** that connects to the 5G network.
+
+### 2. **5G RAN (Radio Access Network)**
+- Connects your device to the 5G Core.
+- **gNodeB** (Next-generation Node B) acts as the **cell tower/base station**.
+- Handles the **wireless connection** between your phone and the network.
+
+### 3. **5G Core**
+- The **brain** of the 5G system, managing connections, data flow, and security.
+- Key components:
+  - **AMF (Access and Mobility Management Function):** Manages registration, connection, and mobility.
+  - **SMF (Session Management Function):** Manages data sessions (internet connections).
+  - **UPF (User Plane Function):** Routes user data (e.g., video streaming, web browsing).
+  - **AUSF (Authentication Server Function):** Verifies user identity (security).
+  - **UDM (Unified Data Management):** Stores subscriber information (like SIM data).
+  - **PCF (Policy Control Function):** Applies network policies (data limits, priority, etc.).
+
+### 4. **Data Network**
+- The **internet** — where all your online content (websites, apps, videos) resides.
+
+
+## 🔗 Interfaces (Connections)
+
+| Interface | Between | Purpose |
+|------------|----------|----------|
+| **N1** | UE ↔ AMF (via gNodeB) | Control messages |
+| **N2** | gNodeB ↔ AMF | Signaling/control connection |
+| **N3** | gNodeB ↔ UPF | User data transfer |
+| **N4** | SMF ↔ UPF | Data flow management |
+
+
+## ⚙️ How It Works (Step-by-Step)
+
+1. The **UE** (your phone) connects wirelessly to the **gNodeB** (5G cell tower).  
+2. The **gNodeB** forwards control messages to the **AMF** and data traffic to the **UPF**.  
+3. The **5G Core** functions (AMF, SMF, AUSF, etc.) handle authentication, session setup, and routing.  
+4. Finally, the **UPF** sends your data to the **internet** and back to your device.
+
+
+### 📶 In Simple Terms
+
+> **Your phone → 5G tower → 5G core network → Internet → back to your phone**
 
 
 
