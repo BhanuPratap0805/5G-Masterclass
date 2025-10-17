@@ -381,24 +381,42 @@ This diagram shows the **basic 5G network architecture** — how your phone conn
 
 # 5G Deployment Options
 
-Standalone (SA)
+ Stratergies for Deploying 5G
+
+### Standalone (SA)
 - The **gNodeB** connects directly to the **5G Core (5GC)**.  
 - Both **control plane** and **user plane** operate entirely on 5G.  
 - Represents a **pure 5G network**, enabling advanced features such as ultra-low latency, network slicing, and high reliability.  
 - Requires deployment of a new 5G Core network, making it more complex and costly initially.  
 
 
-Non-Standalone (NSA)
+### Non-Standalone (NSA)
 - The **gNodeB** connects via the existing **4G eNodeB** and uses the **Evolved Packet Core (EPC)**.  
 - The **control plane** is handled by 4G, while the **user plane** runs through 5G.  
 - Enables faster and more economical rollout by leveraging existing LTE infrastructure.  
 - Provides higher data speeds but **limited 5G capabilities** compared to Standalone mode.  
 
+## Deployment Options
 
+### Option 1 :
 
+It's a basic LTE network architecture where a mobile device connects to an eNodeB (base station), which in turn is linked to the EPC (Evolved Packet Core) network. The coverage area of the eNodeB encompasses the mobile device, enabling cellular communication between the device and the core network
 
+### Option 2 :
 
+It's a pure 5G network setup where a mobile device connects to a gNodeB (5G base station), which is directly linked to the 5G Core. There is no legacy or interworking with older technologies, making it suitable for exclusive 5G use cases.
 
+### Option 3 : 
+
+This illustrates three different LTE-5G integration options where both eNodeB (LTE) and gNodeB (5G) are used together, connected to the EPC (Evolved Packet Core):
+
+- Option 3: The user device connects to both eNodeB and gNodeB, but user data travels from gNodeB to eNodeB and then to the EPC, with control and user plane shown.
+
+- Option 3a: User data from gNodeB is redirected to the EPC, bypassing eNodeB, although control signaling may still involve both nodes.
+
+- Option 3x: User data from gNodeB is tunneled through eNodeB to the EPC, requiring more interworking between both nodes.
+
+These setups enable LTE and NR (5G) to coexist and support dual connectivity for compatibility and coverage.​
 
 
 
