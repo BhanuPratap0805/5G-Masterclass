@@ -379,5 +379,33 @@ This diagram shows the **basic 5G network architecture** — how your phone conn
 
 > **Your phone → 5G tower → 5G core network → Internet → back to your phone**
 
+# 5G Deployment Options
+
+Standalone (SA)
+- The **gNodeB** connects directly to the **5G Core (5GC)**.  
+- Both **control plane** and **user plane** operate entirely on 5G.  
+- Represents a **pure 5G network**, enabling advanced features such as ultra-low latency, network slicing, and high reliability.  
+- Requires deployment of a new 5G Core network, making it more complex and costly initially.  
+
+
+Non-Standalone (NSA)
+- The **gNodeB** connects via the existing **4G eNodeB** and uses the **Evolved Packet Core (EPC)**.  
+- The **control plane** is handled by 4G, while the **user plane** runs through 5G.  
+- Enables faster and more economical rollout by leveraging existing LTE infrastructure.  
+- Provides higher data speeds but **limited 5G capabilities** compared to Standalone mode.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
